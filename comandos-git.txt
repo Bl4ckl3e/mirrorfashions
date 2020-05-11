@@ -1,0 +1,42 @@
+git init
+
+inicia um diretorio
+
+---
+
+git status
+
+verificar os arquivos
+
+---
+
+git log
+
+verificar quem modificou e a data
+
+---
+
+git add .
+
+subir para stage area todos os arquivos modificados
+
+---
+git add nome-do-arquivo
+
+subir para a stage o arquivo especifico
+
+---
+
+git commit -m
+
+para adicionar um comentario 
+
+---
+
+git push origin nome-da-branch para subir github
+
+---
+
+git checkout nome-da-branch
+
+para navegar entre as branchs
