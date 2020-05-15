@@ -15,7 +15,17 @@ h2 {
     border-bottom: 2px solid #333333;
     margin-top: 30px;
 }
+ 
+#centro-distribuicao { /*FOTO DO CENTRO DE DISTRIBUÇÃO*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
 
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
 figure {
     background-color: #F2EDED;
     border: 1px solid #ccc;
@@ -32,4 +42,16 @@ figcaption {
 p{
     padding: 0 45px;
     text-indent: 15px;   
+}
+
+#rodape{ /*RODAPE DO SITE*/
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right:  30px;
+    vertical-align: middle;
+    width: 94px;
 }
