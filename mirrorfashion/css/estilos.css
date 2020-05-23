@@ -2,25 +2,35 @@
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
     background-position: top right;
-
+    padding-top: 8px;
     font-size: 14px;
     padding-right: 35px;
     text-align: right;
     width: 140px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
-.menu-opcoes ul {
+.menu-opcoes ul 
+{
     font-size: 15px;
 }
 
-.menu-opcoes ul {
-    font-size: 15px;
+ul li {
+    display: inline;
+    margin-left: 20px;
 }
 
-.menu-opcoes a {
-    color: #003366;
+
+.container{
+    margin: 0 auto;
+    width: 940px;
 }
 
+header{
+    position: relative;
+}
 body {
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
